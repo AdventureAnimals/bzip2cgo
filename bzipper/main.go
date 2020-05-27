@@ -13,7 +13,7 @@ import (
 	"log"
 	"os"
 
-	"gopl.io/ch13/bzip"
+	"github.com/AdventureAnimals/bzip2cgo/bzip"
 )
 
 func main() {
