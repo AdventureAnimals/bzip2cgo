@@ -12,3 +12,13 @@ and then:
 cd bzipper
 go build -v .
 ```
+
+try:
+
+```bash
+# compress and decompress
+< main.go ./bzipper | bunzip2 | sha1sum
+
+# verify
+cat main.go | sha1sum
+```
